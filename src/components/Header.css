@@ -1,6 +1,7 @@
+
 @font-face {
-  font-family: 'get-schwifty';
-  src: local('get-schwifty'), url(../../public/assets/fonts/get-schwifty.ttf) format('truetype');
+  font-family: "get-schwifty";
+  src: url(../../public/assets/fonts/get-schwifty.ttf)
 }
 
 .h1 {
@@ -9,9 +10,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  color: rgb(16, 206, 212);
   font-family: "get-schwifty";
   font-size: 500%;
+  color: rgb(16, 206, 212);
   -webkit-text-stroke-color: #000000;
   -webkit-text-stroke-width: 1px;
   text-shadow:
