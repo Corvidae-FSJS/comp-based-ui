@@ -62,6 +62,17 @@ module.exports = {
           loader: 'url-loader',
           options: { limit: 1000 },
         },
+      },
+      {
+        test: /\.ttf$/,
+        use: [
+          {
+            loader: 'ttf-loader',
+            options: {
+              name: './font/[hash].[ext]',
+            },
+          },
+        ]
       }
     ]
   }
