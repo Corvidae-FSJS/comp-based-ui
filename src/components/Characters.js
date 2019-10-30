@@ -5,7 +5,7 @@ import styles from './Characters.css';
 export default function Character({ img, name, species }) {
   return (
     <dl className={styles.List}>
-      <dt className={styles.Center}>Image</dt>
+      <dt className={styles.Center}></dt>
       <dd><img src={img}></img></dd>
 
       <dt className={styles.Center}>Name</dt>
